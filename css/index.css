@@ -1,0 +1,166 @@
+.top{
+    background-color: #eae5cd;
+    align-items: center;
+    padding: .5em;
+}
+.top .col img{
+    width: 130px;
+    border-radius: 50%;
+}
+.nav{
+    float: right;
+}
+.nav ul{
+    margin: 0;
+}
+.nav ul li{
+    list-style: none;
+    text-align: right;
+    align-content: flex-end;
+}
+.nav ul li a{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.5em;
+    color: #000000;
+    text-decoration: none;
+    line-height: 1.2em;
+}
+.brake{
+    background-color: #8aa891;
+    margin-top: 3px;
+    padding-left: 10px;
+    color: #ffffff;
+    font-family: 'Slabo 27px', serif; 
+    letter-spacing: 1em;
+}
+h4{
+    margin: 0;
+}
+.general{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.first{
+    padding: 0;
+}
+.title-note{
+    width: 100%;
+    border: 10px solid #000000;
+    align-content: center;
+    padding-top: 10px;
+}
+h2{
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 1em;
+}
+p{
+    font-family: 'Slabo 27px', serif;
+    font-size: .9em;
+    padding: 5px;
+    
+}
+.bowl img{
+    width: 100%;
+}
+.rayuela{
+    background-color: #eae5cd;
+    border-top: 10px solid #000000;
+    padding-top: 10px;
+    border-bottom: 10px solid #000000;
+
+}
+h5{
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.2em;
+    font-style: italic;
+    padding: 5px;
+    background-color: #b9b3a9;
+    width: 80%;
+    padding: 8px;
+    margin: 10% auto;
+    text-align: center;
+    border-radius: 20px;
+}
+.plato-rayuela img{
+    width: 100%;
+}
+.face{
+    padding-top: 20px;
+    text-align: center;
+}
+.face img{
+    border-radius: 50%;
+    padding: 5px;
+    border: 3px solid #9b90ad;
+}
+.cv{
+    margin-top: 3px;
+}
+.highlights h3{
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.3em;
+    font-style: italic;
+    color: #9b90ad;
+    text-align: center;
+    background-color: none;
+}
+.xxl img{
+    width: 100%;
+}
+.xxl{
+    padding-right: 0;
+}
+h6{
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1em;
+    color: #9b90ad;
+    border: 3px solid #9b90ad;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.metodo{
+    background-color: #eae5cd;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.metodo-title{
+    padding-right: 0;
+}
+.metodo .text-m{
+    columns: 2;
+}
+.metodo h2{
+    padding: 10px;
+    border: 10px solid #000000;
+}
+.metodo img{
+    width: 50%;
+}
+.piezas{
+    background-color: #b9b3a9;
+    margin-top: 3px;
+}
+.piezas img{
+    padding: 10px;
+    width: 100%;
+
+}
+.second-piezas{
+    background-color: #b9b3a9;
+}
+.second-piezas h5{
+    color: #ffffff;
+    font-size: 2em;
+    font-style: normal;
+    letter-spacing: .3em;
+    margin: 30px auto;
+
+}
+
+
+
