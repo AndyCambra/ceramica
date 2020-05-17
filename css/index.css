@@ -83,17 +83,22 @@ h5{
     text-align: center;
     border-radius: 20px;
 }
+.plato-rayuela{
+    padding-right: 0;
+}
 .plato-rayuela img{
     width: 100%;
+    margin-bottom: 3px;
 }
 .face{
     padding-top: 20px;
     text-align: center;
 }
 .face img{
+    width: 95%;
     border-radius: 50%;
     padding: 5px;
-    border: 3px solid #9b90ad;
+    border: 5px solid #9b90ad;
 }
 .cv{
     margin-top: 3px;
@@ -106,6 +111,7 @@ h5{
     text-align: center;
     background-color: none;
 }
+
 .xxl img{
     width: 100%;
 }
@@ -121,7 +127,7 @@ h6{
     border: 3px solid #9b90ad;
     padding: 10px;
     border-radius: 20px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .metodo{
     background-color: #eae5cd;
@@ -139,7 +145,7 @@ h6{
     border: 10px solid #000000;
 }
 .metodo img{
-    width: 50%;
+    width: 90%;
 }
 .piezas{
     background-color: #b9b3a9;
@@ -180,14 +186,19 @@ h6{
 
 }
 .detalles p{
+    height: 95%;
     border-top: 10px solid #000000;
+    border-bottom: 10px solid #000000;
 }
 .horarios{
-    margin-bottom: 15px;
+    margin-bottom: 3px;
+    background-color: #eae5cd;
 }
 .horarios h2{
     padding: 10px;
     border: 10px solid #000000;
+    background-color: #ffffff;
+    margin-top: 10px;
 }
 .horas{
     font-family: 'Slabo 27px', serif;
@@ -222,6 +233,51 @@ h6{
     font-family: 'Slabo 27px', serif;
     padding: 30px;
     color: #eae5cd;
+}
+@media screen and (max-width: 768px){
+
+    .bowl{
+        padding-right: 0;
+    }
+    .metodo img{
+        display: none;
+    }
+    .horarios h2{
+        font-size: 2em;
+    }
+    .horas p{
+        font-size: 1.1em;
+    }
+   
+    }
+}
+@media screen and (max-width: 480px){
+
+    .title-note h2{
+        font-size: 2.2em;
+    }
+    p{
+        font-size: 1em;
+    }
+    .bowl{
+        padding-left: 0;
+    }
+    .bowl img{
+        margin-bottom: 3px;
+    }
+    .plato-rayuela{
+        padding-left: 0;
+        margin-top: 3px;
+    }
+    .plato-rayuela p{
+        font-size: 1em;
+    }
+    .brake{
+        letter-spacing: .7em;
+    }
+    .face img{
+        width: 45%;
+    }
 }
 
 
