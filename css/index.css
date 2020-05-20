@@ -95,7 +95,7 @@ h5{
     text-align: center;
 }
 .face img{
-    width: 95%;
+    width: 75%;
     border-radius: 50%;
     padding: 5px;
     border: 5px solid #9b90ad;
@@ -168,29 +168,32 @@ h6{
     margin: 30px auto;
 }
 .detalles{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .circle{
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     background-color: #000000;
     text-align: center;
     margin: auto;
     margin-bottom: 15px;
+    
 }
 .circle h2{
-    font-size: 1.5em;
-    padding-top: 60px;
+    font-size: 1.3em;
+    padding-top: 55px;
     color: #ffffff;
-
+    
 }
-.detalles p{
-    height: 95%;
+.detalles .circle-text{
     border-top: 10px solid #000000;
     border-bottom: 10px solid #000000;
+    margin-bottom: 10px;
 }
+
 .horarios{
+    margin-top: 20px;
     margin-bottom: 3px;
     background-color: #eae5cd;
 }
@@ -234,6 +237,19 @@ h6{
     padding: 30px;
     color: #eae5cd;
 }
+@media screen and (min-width: 786px){
+    .circle{
+        float: left;
+    }
+    .circle h2{
+        font-size: 1.3em;
+
+    }
+    .circle-text{
+        width: 50%;
+        float: right;
+    }
+}
 @media screen and (max-width: 768px){
 
     .bowl{
@@ -249,8 +265,8 @@ h6{
         font-size: 1.1em;
     }
    
-    }
 }
+
 @media screen and (max-width: 480px){
 
     .title-note h2{
@@ -260,7 +276,7 @@ h6{
         font-size: 1em;
     }
     .bowl{
-        padding-left: 0;
+        padding: 0px;
     }
     .bowl img{
         margin-bottom: 3px;
